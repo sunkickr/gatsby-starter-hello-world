@@ -9,11 +9,11 @@ collections:
   - name: blog
     label: Blog
     folder: blog
-    slug: slug
+    slug: "{{slug}}"
     create: true
     fields:
       - { name: title, label: Title }
-      - { name: description, label: Description}
+      - { name: description, label: Description, widget: string}
       - { name: heroImagePath, label: heroImagePath}
       - { name: authors, label: Authors}
       - { name: avatar, label: Avatar}
