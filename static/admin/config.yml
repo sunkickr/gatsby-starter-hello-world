@@ -2,19 +2,19 @@ backend:
   name: github
   repo:  sunkickr/gatsby-starter-hello-world 
 
-media_folder: static/assets
+media_folder: astro-blog/assets
 public_folder: /assets
 
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: astro-blog/blog
     slug: "{{slug}}"
     create: true
     fields:
       - { name: title, label: Title }
       - { name: description, label: Description, widget: string }
-      - { name: heroImagePath, label: heroImagePath }
+      - { name: heroImage, label: Hero Image Path }
       - { name: authors, label: Authors, widget: list }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
