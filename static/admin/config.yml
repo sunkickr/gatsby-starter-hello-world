@@ -3,7 +3,7 @@ backend:
   repo:  sunkickr/gatsby-starter-hello-world 
 
 media_folder: astro-blog/assets
-public_folder: /assets
+public_folder: ../assets
 
 collections:
   - name: blog
