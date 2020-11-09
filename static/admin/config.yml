@@ -8,7 +8,7 @@ public_folder: ../assets
 collections:
   - name: blog
     label: Blog
-    folder: astro-blog/blog
+    folder: astro-blog/posts
     slug: "{{slug}}"
     create: true
     fields:
